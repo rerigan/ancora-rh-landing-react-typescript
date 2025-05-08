@@ -1,9 +1,9 @@
 import { Search } from "lucide-react";
-function Servicos() {
+function Depoimentos() {
   return (
     <>
       <section
-        id="servicos-section"
+        id="depoimentos-section"
         className="section relative min-h-screen overflow-hidden"
       >
         <div className="container mx-auto px-4 md:px-6 py-16 md:py-24 overflow-hidden text-center">
@@ -29,4 +29,4 @@ function Servicos() {
   );
 }
 
-export default Servicos;
+export default Depoimentos;
