@@ -1,29 +1,14 @@
-import { Search } from "lucide-react";
 function Depoimentos() {
   return (
     <>
       <section
-        id="depoimentos-section"
-        className="section relative min-h-screen overflow-hidden"
+        id="contact-section"
+        className="section relative min-h-[40rem] w-full overflow-hidden bg-gray-100 "
       >
-        <div className="container mx-auto px-4 md:px-6 py-16 md:py-24 overflow-hidden text-center">
-          <h1 className="text-3xl font-bold">Confira nossos serviços!</h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-50">
-            <div className="card flex items-center justify-center relative shadow-xl bg-[#f0f0f096] rounded-xl  text-2xl font-bold h-40">
-              <Search className="absolute  left-5" />
-              <p>Fazemos isso</p>
-              
-            </div>
-            <div className="card flex items-center justify-center relative shadow-xl bg-[#f0f0f096] rounded-xl  text-2xl font-bold h-40">
-              <Search className="absolute  left-5" />
-              <p>E aquilo</p>
-            </div>
-            <div className="card flex items-center justify-center relative shadow-xl bg-[#f0f0f096] rounded-xl  text-2xl font-bold h-40">
-              <Search className="absolute  left-5" />
-              <p>E também aquilo</p>
-            </div>
-          </div>
-        </div>
+        <div className="text-center mt-40">
+          <h2 className="font-bold text-xl mb-10">Te ajudamos a encontrar o candidato perfeito!</h2><h1 className="text-xl font-bold p-4 inline-flex bg-blue-600 text-white rounded">Entre em contato!</h1></div>
+          <p className="text-[15px] text-center absolute bottom-5 block left-[50%] translate-x-[-50%]">©Âncora RH, 2025</p>
+        
       </section>
     </>
   );
