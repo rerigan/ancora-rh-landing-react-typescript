@@ -8,5 +8,5 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
-  base: "/tmdb-movies"
+  base: "/ancora-rh-landing-react-typescript"
 })
