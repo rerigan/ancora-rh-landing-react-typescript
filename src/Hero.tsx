@@ -5,7 +5,7 @@ function Hero() {
     <>
       <section
         id="hero-section"
-        className="section relative min-h-screen flex pt-16 overflow-hidden"
+        className="section relative min-h-screen flex overflow-hidden"
       >
         <div className="container mx-auto px-4 md:px-6 py-10 md:py-40 overflow-hidden mt-30 md:mt-10">
           <div className="flex justify-around items-center overflow-hidden flex-wrap md:flex-nowrap">
